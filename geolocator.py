@@ -10,7 +10,7 @@ from geopy.geocoders import Nominatim
 import pydeck as pdk
 
 
-geolocator = Nominatim(user_agent="geoapiExercises")
+geolocator = Nominatim(user_agent="geolocator-pv.streamlit.app")
 
 st.title('Country/Region Coordinate Finder')
 place = st.text_input('Enter a country or region:')
